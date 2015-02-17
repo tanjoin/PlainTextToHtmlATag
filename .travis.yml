@@ -8,4 +8,12 @@ branches:
   only:
     - master
     - develop
-script: cmake
+
+before_script:
+  - cmake .
+
+script:
+  - make
+
+after_success:
+  - make test
