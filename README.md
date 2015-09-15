@@ -1,7 +1,13 @@
 PlainTextToHtmlATag
 ===================
 
-"あああああ http://google.com" を "&lt;a href="http://google.com"&gt; あああああ &lt;/a&gt;" にするゴミプログラムです
+```
+あああああ http://google.com
+```
+↓
+```
+<a href="http://google.com"> あああああ </a>
+```
 
 # Setup
 
